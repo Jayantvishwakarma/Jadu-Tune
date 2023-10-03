@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jadu tune</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="keys">
+    <div data-key="65" onclick="key1()" class="key">
+      <kbd>A</kbd>
+      <span class="sound">B4</span>
+    </div>
+    <div data-key="83" onclick="key2()" class="key">
+      <kbd>B</kbd>
+      <span class="sound">C5</span>
+    </div>
+    <div data-key="68" onclick="key3()" class="key">
+      <kbd>C</kbd>
+      <span class="sound">D5</span>
+    </div>
+    <div data-key="70" onclick="key4()" class="key">
+      <kbd>D</kbd>
+      <span class="sound">E5</span>
+    </div>
+    <div data-key="72" onclick="key5()" class="key">
+      <kbd>E</kbd>
+      <span class="sound">F5</span>
+    </div>
+    <div data-key="74" onclick="key6()" class="key">
+      <kbd>F</kbd>
+      <span class="sound">A-4</span>
+    </div>
+    <div data-key="75" onclick="key7()" class="key">
+      <kbd>G</kbd>
+      <span class="sound">G4</span>
+    </div>
+    <div data-key="76" onclick="key8()" class="key">
+      <kbd>H</kbd>
+      <span class="sound">C6</span>
+    </div>
+  </div>
+  <audio data-key="65" id="a1" src="sounds/b4.mp3"></audio>
+  <audio data-key="83" id="a2" src="sounds/c5.mp3"></audio>
+  <audio data-key="68" id="a3" src="sounds/d5.mp3"></audio>
+  <audio data-key="70" id="a4" src="sounds/e5.mp3"></audio>
+  <audio data-key="72" id="a5" src="sounds/f5.mp3"></audio>
+  <audio data-key="74" id="a6" src="sounds/a-4.mp3"></audio>
+  <audio data-key="75" id="a7" src="sounds/g4.mp3"></audio>
+  <audio data-key="76" id="a8" src="sounds/c6.mp3"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
